@@ -1,0 +1,16 @@
+/* Jelle CSS */
+.NoodlesTitle{
+    text-align:     center;
+}
+
+.rowNoodles{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columnNoodles{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
