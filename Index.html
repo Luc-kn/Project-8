@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Hot Pot</title>
+    <link rel="stylesheet" href="./stylesheet/stylesheet.css">
 </head>
 <body>
+<nav>
+    <a align="left">Hot Pot</a>
+    <a>Home </a>
+    <a>Bestellen </a>
+</nav>
+<h2>Producten</h2>
+<h4>Hot Pot Soup</h4>
+<div class="dropdown" align="center">
+    <div onclick="myFunction()"class="dropbtn" align="center">Soup base</div>
+        <div id="myDropdown" class="dropdown-content">
+            <h3>half-half soup base</h3>
+            <h3>spicy soup base</h3>
+            <h3>normal soup base</h3>
+        </div>
+    </div>
+</div>
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
 
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
 </body>
 </html>
