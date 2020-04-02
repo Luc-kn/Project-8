@@ -1,16 +1,27 @@
 /* Jelle CSS */
-.NoodlesTitle{
+/*styling for the order text (centering)*/
+.NoodlesTitle {
     text-align:     center;
 }
 
-.rowNoodles{
-    content: "";
-    clear: both;
-    display: table;
+/*Styling for the first row of images*/
+.InstantNoodlesRow1 {
+    display: flex;
 }
 
-.columnNoodles{
-    float: left;
-    width: 33.33%;
+/*Styling for all the images in row 1*/
+.InstantNoodlesColumn1 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/*Styling for the second row of images*/
+.InstantNoodlesRow2 {
+    display: flex;
+}
+
+/*Styling for all the images in row 2*/
+.InstantNoodlesColumn2 {
+    flex: 33.33%;
     padding: 5px;
 }
