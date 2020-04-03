@@ -15,3 +15,18 @@ button{
 h2{
     background-color: #D2D5CE;
 }
+.zawardo{
+    align-content: right;
+    margin-bottom: 50px;
+}
+.muda{
+    align-content: right;
+    margin-bottom: 10px;
+}
+.lick{
+    align-self: right;
+    margin-bottom: 10px;
+}
+.cars{
+    align-content: right;
+}
