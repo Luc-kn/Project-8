@@ -41,14 +41,15 @@ switch($sNoodles){
     break;
     default:
     $sNoodles=0;
+    $fPrijs=0;
     break; 
 }
 
 //Start table 
 echo("<table border='1'>");
 echo("<tr><th>Gekozen product</th><td>'.$sProduct.'</td></tr>");
-echo("<tr><th>Prijs</th><td>'.$fPrijs.'</td></tr>");
 echo("<tr><th>Noodle smaak</th><td>'.$sNoodles.'</td></tr>");
+echo("<tr><th>Prijs</th><td>'.$fPrijs.'</td></tr>");
 echo("</table>");
 
 ?>
