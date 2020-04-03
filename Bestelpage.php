@@ -43,3 +43,36 @@ switch($sNoodles){
     $sNoodles=0;
     break; 
 }
+
+?>
+
+<!doctype HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <title>Bestelpagina</title>
+</head>
+<body>
+    <form method="post">
+    <Table border="1" class="BestelPageTable">
+        <tr>
+            <th>Gekozen product</th>
+            <td>".$sProduct."</td>
+        </tr>
+        <tr>
+            <th>Prijs</th>
+            <td>".$fPrijs."</td>
+        </tr>
+        <tr>
+            <th>Noodle smaak</th>
+            <td>".$sNoodles."</td>
+        </tr>
+    </Table>
+    <br>
+    <button type="submit"><P>bestellen</P></button> 
+    </form>
+</body>
+
+</html>
