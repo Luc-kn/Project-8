@@ -1,0 +1,124 @@
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdf7c;
+}
+  
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+  
+li a {
+    display: block;
+    color: #b45151;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            color: #7c2222;
+            font-family: Impact, Charcoal, sans-serif;
+            font-size: 300%;
+}
+
+.openGif {
+    width: 8%;
+    height: 5%;
+}
+
+body {
+    background-color: #ffff99;
+}
+
+.slider {
+  overflow: hidden;
+  width: 600px;
+  height: 400px;
+  background: url(images/sushi.jpg);
+  margin: 100px auto;
+  animation: slide 30s infinite;
+}
+
+@keyframes slide {
+  25%{
+      background-image: url(images/sushi.jpg);
+  }
+  50%{
+      background-image: url(images/hotpot.jpg);
+  }
+  75%{
+      background-image: url(images/noodles.jpg);
+  }
+  100%{
+      background-image: url(images/sushi2.jpg);
+  }
+}
+
+p1 {
+  color: #7c2222;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 200%;
+}
+
+p2 {
+  font-size: 200%;
+}
+
+.openingsTijden {
+  font-size: 200%;
+  font-style: italic;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffdf7c;
+  color: black;
+  text-align: center;
+}
