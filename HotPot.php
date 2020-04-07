@@ -13,6 +13,13 @@
   <li><a href="InstantNoodles.php">Noodles</a></li>
   <li><a href="Bestelpage.php">Bestellen</a></li>
 </ul>
+<nav>
+    <li><a href="home">Home</a></li>
+    <li><a href="HotPot.php">Hot Pot</a></li>
+    <li><a href="Sushi.php">Sushi</a></li>
+    <li><a href="InstantNoodles.php">Noodles</a></li>
+    <li><a href="#bestellen">Bestellen</a></li>
+</nav>
 <h2>Producten</h2>
 <h4>Hot Pot Soup</h4><pre><p style="text-align: right; position: relative;"><img src="./stylesheet/images/DOrFwp.gif" class="zawardo"></p></pre>
 <h3>Step 1</h3>
