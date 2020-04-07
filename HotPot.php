@@ -52,6 +52,11 @@ $iTotaal = 0;
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
 </head>
 <body>
+<div class="logo">
+    <img src="images/logo.PNG">
+    <img class="openGif" src="images/open.gif" width="8%">
+    <p4></p4>
+</div>
 <ul style=>
   <li><a href="index.html">Home</a></li>
   <li><a href="HotPot.php">Hot Pot</a></li>
@@ -59,19 +64,20 @@ $iTotaal = 0;
   <li><a href="InstantNoodles.php">Noodles</a></li>
   <li><a href="Bestelpage.php">Bestellen</a></li>
 </ul>
-<h2>Producten</h2>
-<h4>Hot Pot Soup</h4><pre><p style="text-align: right; position: relative;"><img src="./stylesheet/images/DOrFwp.gif" class="zawardo"></p></pre>
+<div>
+<h2>Producten</h2> <div><img src="./stylesheet/images/DOrFwp.gif" class="zawardo"></p></div>
+<h4>Hot Pot Soup</h4><pre><p style="text-align: right; position: relative;"<br>
 <h3>Step 1</h3>
 <p>Select your soup base</p>
 <h3>Step 2</h3>
 <p>choose your ingriedients</p>
 <h3>Step 3</h3>
 <p>You start doing the hot pot</p>
-<br>
-
+<br></div>
+<div>
 <img src="./stylesheet/images/FatalIdioticGypsymoth-max-1mb.gif" class=""muda width="33%">
-<img src="./stylesheet/images/giphy.gif" class="lick">
-
+<img src="./stylesheet/images/giphy.gif" class="lick" align="right">
+</div>
 <div align="center">
 
          <h2>Soup base</h2>

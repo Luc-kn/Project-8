@@ -128,6 +128,11 @@ function LoadArray() {
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
 </head>
 <body>
+<div class="logo">
+    <img src="images/logo.PNG">
+    <img class="openGif" src="images/open.gif" width="8%">
+    <p4></p4>
+</div>
 <ul style=>
     <li><a href="index.html">Home</a></li>
     <li><a href="HotPot.php">Hot Pot</a></li>
