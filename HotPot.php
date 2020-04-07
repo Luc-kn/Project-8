@@ -1,3 +1,49 @@
+<?php
+//function to save the array the 'winkelwagen.json' file
+function SaveArray($p_aSaveArray) {
+    //change string into json compatible data
+    $aJSONArray = json_encode($p_aSaveArray);
+    //open the file in writing mode
+    $file = fopen('winkelwagen.json','w');
+    //change the files content of the opened file to what it already was + the new array
+    file_put_contents('winkelwagen.json', $aJSONArray);
+    //close the file
+    fclose($file);
+}
+
+//function to load the 'winkelwagen.json' file
+function LoadArray() {
+    //open the file in reading mode
+    $file = fopen('winkelwagen.json','r');
+    //get the content of the opened file
+    $aJSONArray = file_get_contents('winkelwagen.json');
+    //change the read string to php compatible data
+    $aReadArray = json_decode($aJSONArray,TRUE);
+    //close the file
+    fclose($file);
+    //save the loaded data to be used in the page
+    return($aReadArray);
+}
+
+if(!empty($_POST)){
+    $sSoupBase      = $_POST['sSoupBaseName'];
+    $sVegtable      = $_POST['sVegtableName'];
+    $sMeat          = $_POST['sMeatName'];
+    $fPrijs         = $_POST['fPrijsSoupBase'];
+    $fPrijs         = $fPrijs + $_POST['fPrijsVegtable'];
+    $fPrijs         = $fPrijs + $_POST['fPrijsMeat'];
+    $aWinkelwagen   = LoadArray();
+    $iRecordCounter = count($aWinkelwagen);
+    $aWinkelwagen[$iRecordCounter] = array($sSoupBase,$sVegtable,$sMeat,$fPrijs);
+    //save the array to the file
+    SaveArray($aWinkelwagen);
+    header('location: Bestelpage.php');
+}
+$iTotaal = 0;
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,36 +73,45 @@
 <img src="./stylesheet/images/giphy.gif" class="lick">
 
 <div align="center">
+
          <h2>Soup base</h2>
-            <h3>half-half soup base</h3>
-    <pre>5,50</pre>
-    <button>order</button>
-            <h3>spicy soup base</h3>
-    <pre>4,50</pre>
-    <button>order</button>
-            <h3>normal soup base</h3>
-    <pre>4,00</pre>
-    <button>order</button>
+    <form method="POST">
+        <h3>half-half soup base</h3>
+        <input type="hidden" name="fPrijsSoupBase" value="5.50">5,50<br>
+        <input type="radio" name="sSoupBaseName" value="half-half soup base">
+        <h3>spicy soup base</h3>
+        <input type="hidden" name="fPrijsSoupBase" value="4.50">4,50<br>
+        <input type="radio" name="sSoupBaseName" value="spicy soup base">
+        <h3>normal soup base</h3>
+        <input type="hidden" name="fPrijsSoupBase" value="4.00">4,00<br>
+        <input type="radio" name="sSoupBaseName" value="spicy soup base">
+
+
         <h2>Vegtables</h2>
-            <h3>Chives</h3>
-    <pre>2,40</pre>
-    <button>order</button>
-            <h3>Asperges</h3>
-    <pre>2,10</pre>
-    <button>order</button>
-        <h3>union</h3>
-    <pre>1,80</pre>
-    <button>order</button>
-            <h2>Meat</h2>
-                <h3>Steak</h3>
-    <pre>3,40</pre>
-    <button>order</button>
-                <h3>chicken</h3>
-    <pre>3,20</pre>
-    <button>order</button>
-                <h3>Pork</h3>
-    <pre>3,10</pre>
-    <button>order</button>
+
+        <h3>Chives</h3>
+        <input type="hidden" name="fPrijsVegtable" value="5.50">2,40<br>
+        <input type="radio" name="sVegtableName" value="Chives">
+        <h3>Asperges</h3>
+        <input type="hidden" name="fPrijsVegtable" value="2.10">2,10<br>
+        <input type="radio" name="sVegtableName" value="Asperges">
+       <h3>Union</h3>
+        <input type="hidden" name="fPrijsVegtable" value="1.80">1,80<br>
+        <input type="radio" name="sVegtableName" value="Union">
+
+        <h2>Meat</h2>
+
+       <h3>Steak</h3>
+        <input type="hidden" name="fPrijsMeat" value="3.40">3,40<br>
+        <input type="radio" name="sMeatName" value="Steak">
+        <h3>chicken</h3>
+        <input type="hidden" name="fPrijsMeat" value="3.20">3,20<br>
+        <input type="radio" name="sMeatName" value="Chicken">
+        <h3>Pork</h3>
+        <input type="hidden" name="fPrijsMeat" value="3.10">3,10<br>
+        <input type="radio" name="sMeatName" value="Pork">
+        <br> <button type="submit">bestel</button><br>
+    </form>
 </div>
 <p style="text-align: center;"><img src="./stylesheet/images/static-assets-upload1966055015942721094.gif" class="cars"></p>
 </body>

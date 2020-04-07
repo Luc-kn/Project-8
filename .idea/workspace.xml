@@ -4,6 +4,7 @@
     <list default="true" id="4ab356d9-d165-4116-b10d-b4d19a7eb14a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bestelpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bestelpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotPot.php" beforeDir="false" afterPath="$PROJECT_DIR$/HotPot.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <updated>1585549965051</updated>
       <workItem from="1585549966356" duration="5424000" />
       <workItem from="1585809832825" duration="8412000" />
-      <workItem from="1586243981473" duration="4548000" />
+      <workItem from="1586243981473" duration="11785000" />
     </task>
     <servers />
   </component>
@@ -67,16 +68,5 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585643891795" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Bestelpage.php</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
