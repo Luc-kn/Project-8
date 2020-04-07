@@ -8,13 +8,13 @@
 </head>
 
 <body>
-<nav>
+<ul style="">
     <li><a href="home">Home</a></li>
     <li><a href="HotPot.php">Hot Pot</a></li>
     <li><a href="Sushi.php">Sushi</a></li>
     <li><a href="InstantNoodles.php">Noodles</a></li>
     <li><a href="#bestellen">Bestellen</a></li>
-</nav>
+</ul>
     <div class="container">
         <div class="group-header">
             <span>12 oz.</span>
