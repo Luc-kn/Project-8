@@ -12,7 +12,9 @@ if(!empty($_POST)){
 $fPrijs;
 $sProduct;
 $sNoodles;
-
+$sSoupBase
+$sVegtable
+$sSteak
 //Switches, breaks and cases
 //Switches and cases for the Product
 switch($sProduct){
