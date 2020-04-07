@@ -5,7 +5,7 @@
     <title>Hot Pot</title>
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
     <?php
-    header('location: winkelwagen.php');
+    header('location: Bestelpage.php');
     ?>
 </head>
 <body>
