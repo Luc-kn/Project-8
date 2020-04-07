@@ -47,7 +47,7 @@
 <form method="post"><br>
   <!--Used to choose the taste that you like-->
     <h3>Maak hieronder u keuze!</h3>
-      <select name="Noodles"> 
+      <select name="Noodles">
           <option value="-">-</option>
           <option value="Seafood">Seafood</option>
           <option value="Duck">Duck</option>
