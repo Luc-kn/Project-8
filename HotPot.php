@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <title>Hot Pot</title>
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
-    <?php
-    header('location: Bestelpage.php');
-    ?>
 </head>
 <body>
 <nav>
