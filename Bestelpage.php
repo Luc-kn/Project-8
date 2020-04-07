@@ -112,6 +112,7 @@ switch($sSushi){
     $sSushi=0;
     break; 
 }
+
 //Start table 
 echo("<table border='1'>");
 echo("<tr><th>Gekozen product</th><td>'.$sProduct.'</td></tr>");
