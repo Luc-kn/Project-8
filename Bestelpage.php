@@ -45,6 +45,7 @@ switch($sNoodles){
     $sNoodles=0;
     break; 
 }
+switch($sSoupBase)
 
 //Start table 
 echo("<table border='1'>");

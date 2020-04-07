@@ -1,8 +1,13 @@
 <<<<<<< HEAD
+    /*Navbar styling (can change before the end of the project)*/
 nav{
-    background-color:#CC0701;
     width:1510px;
     height: 40px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdf7c;
 }
 a{
     background-color: #FFC800;
@@ -36,14 +41,7 @@ h2{
 body{
     background-color:   #D2D5CE;
 }
-/*Navbar styling (can change before the end of the project)*/
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffdf7c;
-}
+
   
 li {
     float: left;
