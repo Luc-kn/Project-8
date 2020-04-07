@@ -15,6 +15,7 @@ $sNoodles;
 $sSoupBase
 $sVegtable
 $sMeat
+$sSushi
 //Switches, breaks and cases
 //Switches and cases for the Product
 switch($sProduct){
@@ -45,6 +46,8 @@ switch($sNoodles){
     $sNoodles=0;
     break; 
 }
+
+//Switches and cases for the HotPot
 switch($sSoupBase){
     case"half-half soup base":
         $sSoupBase="half-half soup base";
@@ -87,10 +90,33 @@ switch($sMeat){
      $sMeat=0;
     break;
 }
+
+//Switches and cases for the Sushi
+switch($sSushi){
+    case "CaliR":
+        $sSushi="CaliR";
+    break;
+    case "TempR":
+        $sSushi="TempR";
+    break;
+    case "PhillyR":
+        $sSushi="PhillyR";
+    break;
+    case "Inari":
+        $sSushi="Inari";
+    break;
+    case "RanibowR":
+        $sSushi="RainbowR";
+    break;
+    default:
+    $sSushi=0;
+    break; 
+}
 //Start table 
 echo("<table border='1'>");
 echo("<tr><th>Gekozen product</th><td>'.$sProduct.'</td></tr>");
 echo("<tr><th>Prijs</th><td>'.$fPrijs.'</td></tr>");
+echo("<tr><th>Sushi</th><td>'.$sSushi.'</td></tr>")
 echo("<tr><th>Noodle smaak</th><td>'.$sNoodles.'</td></tr>");
 echo("<tr><th>Soup Base</th><td>'.$sSoupBase.'</td></tr>")
 echo("<tr><th>Vegtable</th><td>'.$sVegtable.'</td></tr>")
