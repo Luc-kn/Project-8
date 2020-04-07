@@ -92,6 +92,9 @@ echo("<table border='1'>");
 echo("<tr><th>Gekozen product</th><td>'.$sProduct.'</td></tr>");
 echo("<tr><th>Prijs</th><td>'.$fPrijs.'</td></tr>");
 echo("<tr><th>Noodle smaak</th><td>'.$sNoodles.'</td></tr>");
+echo("<tr><th>Soup Base</th><td>'.$sSoupBase.'</td></tr>")
+echo("<tr><th>Vegtable</th><td>'.$sVegtable.'</td></tr>")
+echo("<tr><th>Meat</th><td>'.$sMeat.'</td></tr>")
 echo("</table>");
 
 ?>

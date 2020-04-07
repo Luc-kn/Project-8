@@ -8,7 +8,7 @@
 
 <body>
 <ul style=>
-  <li><a href="home">Home</a></li>
+  <li><a href="#home">Home</a></li>
   <li><a href="HotPot.php">Hot Pot</a></li>
   <li><a href="#sushi">Sushi</a></li>
   <li><a href="InstantNoodles.php">Noodles</a></li>
