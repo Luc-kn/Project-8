@@ -5,7 +5,7 @@ if(!empty($_POST)){
 }
 
 if(!empty($_POST)){
-    $sSushi=$_POST["Sushi"];
+    $sNoodles=$_POST["Noodles"];
 }
 
 //Declaring variables
@@ -14,9 +14,6 @@ $sProduct;
 $sNoodles;
 $sSoupBase
 $sVegtable
-$sSteak
-$sSushi;
-
 $sMeat
 //Switches, breaks and cases
 //Switches and cases for the Product
@@ -24,29 +21,30 @@ switch($sProduct){
 
 }
 
-//Switches and cases for the Sushi
-switch($sSushi){
-    case "CaliR":
-        $sSushi="CaliR";
+//Switches and cases for the Noodles
+switch($sNoodles){
+    case "Seafood":
+        $sNoodles="seafood";
     break;
-    case "TempR":
-        $sSushi="TempR";
+    case "Duck":
+        $sNoodles="duck";
     break;
-    case "PhillyR":
-        $sSushi="PhillyR";
+    case "Beef":
+        $sNoodles="beef";
     break;
-    case "Inari":
-        $sSushi="Inari";
+    case "Kimchi":
+        $sNoodles="kimchi";
     break;
-    case "RanibowR":
-        $sSushi="RainbowR";
+    case "Chicken":
+        $sNoodles="chicken";
+    break;
+    case "Curry":
+        $sNoodles="curry";
     break;
     default:
-    $sSushi=0;
-    $fPrijs=0;
+    $sNoodles=0;
     break; 
 }
-
 switch($sSoupBase){
     case"half-half soup base":
         $sSoupBase="half-half soup base";
@@ -92,8 +90,11 @@ switch($sMeat){
 //Start table 
 echo("<table border='1'>");
 echo("<tr><th>Gekozen product</th><td>'.$sProduct.'</td></tr>");
-echo("<tr><th>Noodle smaak</th><td>'.$sSushi.'</td></tr>");
 echo("<tr><th>Prijs</th><td>'.$fPrijs.'</td></tr>");
+echo("<tr><th>Noodle smaak</th><td>'.$sNoodles.'</td></tr>");
+echo("<tr><th>Soup Base</th><td>'.$sSoupBase.'</td></tr>")
+echo("<tr><th>Vegtable</th><td>'.$sVegtable.'</td></tr>")
+echo("<tr><th>Meat</th><td>'.$sMeat.'</td></tr>")
 echo("</table>");
 
 ?>
