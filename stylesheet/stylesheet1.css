@@ -1,0 +1,101 @@
+<<<<<<< HEAD
+nav{
+    background-color:#CC0701;
+    width:1510px;
+    height: 40px;
+}
+a{
+    background-color: #FFC800;
+}
+body{
+    background-color: #FFF7C6;
+}
+button{
+    background-color: #9E8B68;
+}
+h2{
+    background-color: #D2D5CE;
+}
+.zawardo{
+    align-content: right;
+    margin-bottom: 50px;
+}
+.muda{
+    align-content: right;
+    margin-bottom: 10px;
+}
+.lick{
+    align-self: right;
+    margin-bottom: 10px;
+}
+.cars{
+    align-content: right;
+=======
+/* Jelle CSS */
+/*Styling for the background (can change before the end of the project)*/
+body{
+    background-color:   #D2D5CE;
+}
+/*Navbar styling (can change before the end of the project)*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdf7c;
+}
+  
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+  
+li a {
+    display: block;
+    color: #b45151;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/*End of navbar styling*/
+/*styling for the order text (centering)*/
+.NoodlesTitle {
+    text-align:     center;
+}
+
+/*Styling for the first row of images*/
+.InstantNoodlesRow1 {
+    display: flex;
+}
+
+/*Styling for all the images in row 1*/
+.InstantNoodlesColumn1 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/*Styling for the second row of images*/
+.InstantNoodlesRow2 {
+    display: flex;
+}
+
+/*Styling for all the images in row 2*/
+.InstantNoodlesColumn2 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.NoodlesSelection{
+    Text-align: center;
+>>>>>>> Jelle
+}
