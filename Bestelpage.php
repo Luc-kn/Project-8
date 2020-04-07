@@ -47,9 +47,12 @@ switch($sNoodles){
 }
 switch($sSoupBase)
     case"half-half soup base":
-        $sSoupBase
+        $sSoupBase="half-half soup base";
     break;
-    case"spicy soup base"
+    case"spicy soup base":
+        $sSoupBase="spicy soup base";
+    break;
+    case""
 
 //Start table 
 echo("<table border='1'>");
