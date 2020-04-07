@@ -7,13 +7,13 @@
 </head>
 
 <body>
-<ul style=>
+<nav>
   <li><a href="home">Home</a></li>
   <li><a href="#hotpot">Hot Pot</a></li>
   <li><a href="#sushi">Sushi</a></li>
   <li><a href="#noodles">Noodles</a></li>
   <li><a href="#bestellen">Bestellen</a></li>
-</ul>
+</nav>
 <!--How to order noodles-->
 <div class="NoodlesTitle">
     <h1>Hier kunt u uw Noodles bestellen!<BR></h1>

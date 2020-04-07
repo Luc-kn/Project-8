@@ -7,10 +7,11 @@
 </head>
 <body>
 <nav>
-    <a align="left">Hot Pot</a>
-    <a>Home </a>
-    <a>Bestellen </a>
-    <br>
+    <li><a href="home">Home</a></li>
+    <li><a href="#hotpot">Hot Pot</a></li>
+    <li><a href="#sushi">Sushi</a></li>
+    <li><a href="#noodles">Noodles</a></li>
+    <li><a href="#bestellen">Bestellen</a></li>
 </nav>
 <h2>Producten</h2>
 <h4>Hot Pot Soup</h4><pre><p style="text-align: right; position: relative;"><img src="./stylesheet/images/DOrFwp.gif" class="zawardo"></p></pre>
