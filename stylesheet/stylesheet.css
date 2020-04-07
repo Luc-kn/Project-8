@@ -38,7 +38,7 @@ button{
     background-color: #9E8B68;
 }
 h2{
-    background-color: #D2D5CE;
+    background-color: #CC0701;
 }
 .zawardo{
     align-content: right;
@@ -56,10 +56,6 @@ h2{
     align-content: right;
 }
 /* Jelle CSS */
-/*Styling for the background (can change before the end of the project)*/
-body{
-    background-color:   #D2D5CE;
-}
 /*Navbar styling (can change before the end of the project)*/
 ul {
     list-style-type: none;
