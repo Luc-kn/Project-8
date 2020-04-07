@@ -1,4 +1,58 @@
+h2{
+    background-color: #D2D5CE;
+}
+.zawardo{
+    align-content: right;
+    margin-bottom: 50px;
+}
+.muda{
+    align-content: right;
+    margin-bottom: 10px;
+}
+.lick{
+    align-self: right;
+    margin-bottom: 10px;
+}
+.cars{
+    align-content: right;
+}
 /* Jelle CSS */
+/*Styling for the background (can change before the end of the project)*/
+body{
+    background-color:   #D2D5CE;
+}
+/*Navbar styling (can change before the end of the project)*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdf7c;
+}
+  
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+  
+li a {
+    display: block;
+    color: #b45151;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/*End of navbar styling*/
 /*styling for the order text (centering)*/
 .NoodlesTitle {
     text-align:     center;
@@ -104,4 +158,7 @@ h3 .dots {
     max-width: 90%;
     margin: auto;
     float: left;
+}
+.NoodlesSelection{
+    Text-align: center;
 }

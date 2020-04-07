@@ -7,10 +7,16 @@
 </head>
 
 <body>
+<nav>
+    <li><a href="home">Home</a></li>
+    <li><a href="HotPot.php">Hot Pot</a></li>
+    <li><a href="#sushi">Sushi</a></li>
+    <li><a href="InstantNoodles.php">Noodles</a></li>
+    <li><a href="#bestellen">Bestellen</a></li>
+</nav>
 <!--How to order noodles-->
 <div class="NoodlesTitle">
-    <h1>Hier kunt u uw Noodles bestellen!<BR>
-    Klik op een van de afbeeldingen om u keuze te maken</h1>
+    <h1>Hier kunt u uw Noodles bestellen!<BR></h1>
 </div>
 <br>
 <!--Images of the noodles-->
@@ -36,6 +42,23 @@
     <img src="Images/InstantNoodles2.6.png" alt="Instant Noodles" style="width:100%">
   </div>
 </div>
+
+<div class="NoodlesSelection">
+<form method="post"><br>
+  <!--Used to choose the taste that you like-->
+    <h3>Maak hieronder u keuze!</h3>
+      <select name="Noodles"> 
+          <option value="-">-</option>
+          <option value="Seafood">Seafood</option>
+          <option value="Duck">Duck</option>
+          <option value="Beef">Beef</option>
+          <option value="Kimchi">Kimchi</option>
+          <option value="Chicken">Chicken</option>
+          <option value="Curry">Curry</option>
+      </select> <button type="submit"><P>Bestellen</p></button>
+  </form>
+</div>
+  <br>
 
 </body>
 
