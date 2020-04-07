@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 nav{
     background-color:#CC0701;
     width:1510px;
@@ -30,14 +29,10 @@ h2{
 }
 .cars{
     align-content: right;
-=======
-/* Jelle CSS */
-/*Styling for the background (can change before the end of the project)*/
-body{
-    background-color:   #D2D5CE;
 }
+/*Jelle CSS*/
 /*Navbar styling (can change before the end of the project)*/
-ul {
+ul{
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -94,8 +89,7 @@ li a:hover:not(.active) {
     flex: 33.33%;
     padding: 5px;
 }
-
+/* To center the noodle column*/
 .NoodlesSelection{
     Text-align: center;
->>>>>>> Jelle
 }
