@@ -53,7 +53,7 @@ $iTotaal = 0;
 </head>
 <body>
 <ul style=>
-  <li><a href="#home">Home</a></li>
+  <li><a href="index.html">Home</a></li>
   <li><a href="HotPot.php">Hot Pot</a></li>
   <li><a href="Sushi.php">Sushi</a></li>
   <li><a href="InstantNoodles.php">Noodles</a></li>
