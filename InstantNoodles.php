@@ -8,11 +8,11 @@
 
 <body>
 <nav>
-  <li><a href="home">Home</a></li>
-  <li><a href="#hotpot">Hot Pot</a></li>
-  <li><a href="#sushi">Sushi</a></li>
-  <li><a href="#noodles">Noodles</a></li>
-  <li><a href="#bestellen">Bestellen</a></li>
+    <li><a href="home">Home</a></li>
+    <li><a href="HotPot.php">Hot Pot</a></li>
+    <li><a href="#sushi">Sushi</a></li>
+    <li><a href="InstantNoodles.php">Noodles</a></li>
+    <li><a href="#bestellen">Bestellen</a></li>
 </nav>
 <!--How to order noodles-->
 <div class="NoodlesTitle">
