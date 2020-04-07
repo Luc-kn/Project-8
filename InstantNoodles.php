@@ -14,6 +14,13 @@
   <li><a href="InstantNoodles.php">Noodles</a></li>
   <li><a href="Bestelpage.php">Bestellen</a></li>
 </ul>
+<nav>
+    <li><a href="home">Home</a></li>
+    <li><a href="HotPot.php">Hot Pot</a></li>
+    <li><a href="Sushi.php">Sushi</a></li>
+    <li><a href="InstantNoodles.php">Noodles</a></li>
+    <li><a href="#bestellen">Bestellen</a></li>
+</nav>
 <!--How to order noodles-->
 <div class="NoodlesTitle">
     <h1>Hier kunt u uw Noodles bestellen!<BR></h1>
