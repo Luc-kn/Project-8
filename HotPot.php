@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Hot Pot</title>
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
+    <?php
+    header('location: winkelwagen.php');
+    ?>
 </head>
 <body>
 <nav>
