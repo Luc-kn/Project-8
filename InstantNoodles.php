@@ -70,24 +70,24 @@ $iTotaal = 0;
 <!--Images of the noodles-->
 <div class="InstantNoodlesRow1">
   <div class="InstantNoodlesColumn1">
-    <img src="Images/InstantNoodles2.1.png" alt="Instant Noodles" style="width:100%">
+    <img src="./stylesheet/Images/InstantNoodles2.1.png" alt="Instant Noodles" style="width:100%">
   </div>
   <div class="InstantNoodlesColumn1">
-    <img src="Images/InstantNoodles2.2.png" alt="Instant Noodles" style="width:100%">
+    <img src="./stylesheet/Images/InstantNoodles2.2.png" alt="Instant Noodles" style="width:100%">
   </div>
   <div class="InstantNoodlesColumn1">
-    <img src="Images/InstantNoodles2.3.png" alt="Instant Noodles" style="width:100%">
+    <img src="./stylesheet/Images/InstantNoodles2.3.png" alt="Instant Noodles" style="width:100%">
   </div>
 </div>
 <div class="InstantNoodlesRow2">
   <div class="InstantNoodlesColumn2">
-    <img src="Images/InstantNoodles2.4.png" alt="Instant Noodles" style="width:100%">
+    <img src="./stylesheet/Images/InstantNoodles2.4.png" alt="Instant Noodles" style="width:100%">
   </div>
   <div class="InstantNoodlesColumn2">
-    <img src="Images/InstantNoodles2.5.png" alt="Instant Noodles" style="width:100%">
+    <img src="./stylesheet/Images/InstantNoodles2.5.png" alt="Instant Noodles" style="width:100%">
   </div>
   <div class="InstantNoodlesColumn2">
-    <img src="Images/InstantNoodles2.6.png" alt="Instant Noodles" style="width:100%">
+    <img src="./stylesheet/Images/InstantNoodles2.6.png" alt="Instant Noodles" style="width:100%">
   </div>
 </div>
 
