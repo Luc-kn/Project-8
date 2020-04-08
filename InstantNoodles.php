@@ -44,13 +44,15 @@ $iTotaal = 0;
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
+    <link rel="shortcut icon" href="stylesheet/images/favicon.ico"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Instant Noodles</title>
 </head>
 
 <body>
 <div class="logo">
-    <img src="images/logo.PNG">
-    <img class="openGif" src="images/open.gif" width="8%">
+    <img src="stylesheet/images/logo.PNG">
+    <img class="openGif" src="stylesheet/images/open.gif" width="8%">
     <p4></p4>
 </div>
 <ul style=>
@@ -66,6 +68,7 @@ $iTotaal = 0;
 </div>
 <br>
 <!--Images of the noodles-->
+<<<<<<< HEAD
 <!--Ordering the "smaak" of the noodles on the website-->
 <div align="center">
 <!--seafood smaak-->
@@ -132,6 +135,45 @@ $iTotaal = 0;
       <p>aan winkelwagen toevoegen</p>
     </div>
   </div>
+=======
+<div class="InstantNoodlesRow1">
+  <div class="InstantNoodlesColumn1">
+    <img src="./stylesheet/Images/InstantNoodles2.1.png" alt="Instant Noodles" style="width:100%">
+  </div>
+  <div class="InstantNoodlesColumn1">
+    <img src="./stylesheet/Images/InstantNoodles2.2.png" alt="Instant Noodles" style="width:100%">
+  </div>
+  <div class="InstantNoodlesColumn1">
+    <img src="./stylesheet/Images/InstantNoodles2.3.png" alt="Instant Noodles" style="width:100%">
+  </div>
+</div>
+<div class="InstantNoodlesRow2">
+  <div class="InstantNoodlesColumn2">
+    <img src="./stylesheet/Images/InstantNoodles2.4.png" alt="Instant Noodles" style="width:100%">
+  </div>
+  <div class="InstantNoodlesColumn2">
+    <img src="./stylesheet/Images/InstantNoodles2.5.png" alt="Instant Noodles" style="width:100%">
+  </div>
+  <div class="InstantNoodlesColumn2">
+    <img src="./stylesheet/Images/InstantNoodles2.6.png" alt="Instant Noodles" style="width:100%">
+  </div>
+</div>
+
+<div class="NoodlesSelection">
+<form method="post"><br>
+  <!--Used to choose the taste that you like-->
+    <h3>Maak hieronder u keuze!</h3>
+      <select name="Noodles">
+          <option value="-">-</option>
+          <option value="Seafood">Seafood</option>
+          <option value="Duck">Duck</option>
+          <option value="Beef">Beef</option>
+          <option value="Kimchi">Kimchi</option>
+          <option value="Chicken">Chicken</option>
+          <option value="Curry">Curry</option>
+      </select> <button type="submit"><P>Bestellen</p></button>
+  </form>
+>>>>>>> 985bc04961d5ef8ecb0777ba8f6406ea9877ed6d
 </div>
 <br>
 

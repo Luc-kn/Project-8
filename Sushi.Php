@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="shortcut icon" href="stylesheet/images/favicon.ico"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Sushi</title>
 </head>
 
 <body>
 <div class="logo">
-    <img src="images/logo.PNG">
-    <img class="openGif" src="images/open.gif" width="8%">
+    <img src="stylesheet/images/logo.PNG">
+    <img class="openGif" src="stylesheet/images/open.gif" width="8%">
     <p4></p4>
 </div>
 <ul style="">
@@ -27,8 +29,8 @@
         </div>
 
         <h3>
-            <span>California Roll<img class="img" src="./Images/Cali.jpg" alt="CaliRoll"></span>
-            <span>25$ for 10Rolls</span>
+            <span>California Roll<img class="img" src="./stylesheet/Images/Cali.jpg" alt="CaliRoll"></span>
+            <span>25$ for 10Rolls</span>/stylesheet
             <span>------</span>
             <span> 30$ for 15Rolls</span>
             <span>----</span>
@@ -38,7 +40,7 @@
             you may get one with mayonnaise in it. In the California roll above, there is crab, ahi (tuna), and avocado.
             Sometimes it will be served with a slab of ahi on top.</p>
         <h3>
-            <span>Tempura Roll <img class="img" src="./Images/Roll1.jpg" alt="TempRoll"></span>
+            <span>Tempura Roll <img class="img" src="./stylesheet/Images/Roll1.jpg" alt="TempRoll"></span>
             <span>15$ for 8Rolls</span>
             <span>------</span>
             <span> 4$ for 16Rolls</span>
@@ -49,7 +51,7 @@
             make this crunchy delight is to make the entire roll tempura. In the photo above, the chef created sashimi
             rolls, covered it in tempura batter, and deep-fried the whole thing.</p>
         <h3>
-            <span>Philly Roll<img class="img" src="./Images/Philly.jpg" alt="PhillyRoll"></span>
+            <span>Philly Roll<img class="img" src="./stylesheet/Images/Philly.jpg" alt="PhillyRoll"></span>
             <span>12$ for 5Rolls</span>
             <span>------</span>
             <span> 17$ for 10Rolls</span>
@@ -61,7 +63,7 @@
             sesame seed. It's named the Philly roll because of Philadelphia Cream Cheese, not because it's from
             Philadelphia.</p>
         <h3>
-            <span>Inari<img class="img" src="./Images/Inari.jpg"></span>
+            <span>Inari<img class="img" src="./stylesheet/Images/Inari.jpg"></span>
             <span>16$ for 10Rolls</span>
             <span>------</span>
             <span>25$ for 20Rolls</span>
@@ -71,7 +73,7 @@
         <p>Inari is breaded-rice sushi. The bread is thin and sweet and sometimes filled with vegetables such as carrot
             strips or cucumber. Recommended for a light snack</p>
         <h3>
-            <span>Rainbow Roll <img class="img" src="./Images/RainbowR.jpg"></span>
+            <span>Rainbow Roll <img class="img" src="./stylesheet/Images/RainbowR.jpg"></span>
             <span>23$ for 15Rolls</span>
             <span>------</span>
             <span>32$ for 24Rolls</span>
