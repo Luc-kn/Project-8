@@ -30,7 +30,7 @@
 
         <h3>
             <span>California Roll<img class="img" src="./stylesheet/Images/Cali.jpg" alt="CaliRoll"></span>
-            <span>25$ for 10Rolls</span>/stylesheet
+            <span>25$ for 10Rolls</span>
             <span>------</span>
             <span> 30$ for 15Rolls</span>
             <span>----</span>
