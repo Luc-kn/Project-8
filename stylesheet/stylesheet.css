@@ -1,21 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ce82a1b... .
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-=======
-/*Navbar styling (can change before the end of the project)*/
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
->>>>>>> parent of 0c9b903... coments en style sheet samen voeging
     background-color: #ffdf7c;
     color: black;
     text-align: center;
 }
+=======
+
+>>>>>>> parent of 9c7658e... .
 /*Luc CSS styling*/
 /*Navbar styling (can change before the end of the project)*/
   
@@ -52,6 +51,7 @@ button{
 h2{
     background-color: #CC0701;
 }
+/*styling for images*/
 .zawardo{
     align-content: right;
     margin-bottom: 50px;
@@ -67,6 +67,8 @@ h2{
 .cars{
     align-content: right;
 }
+/*end of image styling*/
+/*end Luc CSS styling
 /* Jelle CSS */
 /*Navbar styling (can change before the end of the project)*/
 ul {
@@ -186,7 +188,6 @@ h3 .dots {
 .NoodlesSelection{
     Text-align: center;
 }
-<<<<<<< HEAD
 
 
 
@@ -269,5 +270,20 @@ p2 {
 }
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 0c9b903... coments en style sheet samen voeging
+=======
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffdf7c;
+    color: black;
+    text-align: center;
+}
+>>>>>>> parent of 9c7658e... .
+=======
+>>>>>>> parent of ce82a1b... .
