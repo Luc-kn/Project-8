@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4ab356d9-d165-4116-b10d-b4d19a7eb14a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/stylesheet/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/stylesheet.css" afterDir="false" />
 =======
 >>>>>>> parent of e57f3f9... ok
+=======
+      <change beforePath="$PROJECT_DIR$/InstantNoodles.php" beforeDir="false" afterPath="$PROJECT_DIR$/InstantNoodles.php" afterDir="false" />
+>>>>>>> parent of 0c9b903... coments en style sheet samen voeging
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +64,14 @@
       <workItem from="1585549966356" duration="5424000" />
       <workItem from="1585809832825" duration="8412000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1586243981473" duration="16374000" />
 =======
       <workItem from="1586243981473" duration="14284000" />
 >>>>>>> parent of e57f3f9... ok
+=======
+      <workItem from="1586243981473" duration="15912000" />
+>>>>>>> parent of 0c9b903... coments en style sheet samen voeging
     </task>
     <servers />
   </component>
@@ -71,10 +79,6 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586329219800">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1586329219800" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1586256960039">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

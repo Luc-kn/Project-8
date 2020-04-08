@@ -41,6 +41,9 @@ if(!empty($_POST)){
 }
 $iTotaal = 0;
 ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,10 +52,14 @@ $iTotaal = 0;
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
 </head>
 <body>
-<!--start of the nav bar-->
 <div class="logo">
+<<<<<<< HEAD
     <img src="stylesheet/images/logo.PNG">        <!--the logo-->
     <img class="openGif" src="stylesheet/images/open.gif" width="8%">
+=======
+    <img src="images/logo.PNG">
+    <img class="openGif" src="images/open.gif" width="8%">
+>>>>>>> parent of 0c9b903... coments en style sheet samen voeging
     <p4></p4>
 </div>
 <ul style=>
@@ -62,10 +69,13 @@ $iTotaal = 0;
   <li><a href="InstantNoodles.php">Noodles</a></li>
   <li><a href="Bestelpage.php">Bestellen</a></li>
 </ul>
-<!--end of the navbar-->
 <div>
+<<<<<<< HEAD
     <!--steps for your own hot pot-->
 <h2>Producten</h2> <div><img src="stylesheet/images/DOrFwp.gif" class="zawardo"></p></div>
+=======
+<h2>Producten</h2> <div><img src="./stylesheet/images/DOrFwp.gif" class="zawardo"></p></div>
+>>>>>>> parent of 0c9b903... coments en style sheet samen voeging
 <h4>Hot Pot Soup</h4><pre><p style="text-align: right; position: relative;"<br>
 <h3>Step 1</h3>
 <p>Select your soup base</p>
@@ -74,13 +84,12 @@ $iTotaal = 0;
 <h3>Step 3</h3>
 <p>You start doing the hot pot</p>
 <br></div>
-<!--images i used-->
 <div>
 <img src="stylesheet/images/FatalIdioticGypsymoth-max-1mb.gif" class="" muda width="33%">
 <img src="stylesheet/images/giphy.gif" class="lick" align="right">
 </div>
 <div align="center">
-<!--the ingridient part of the site-->
+
          <h2>Soup base</h2>
     <form method="POST">
         <h3>half-half soup base</h3>
@@ -119,7 +128,6 @@ $iTotaal = 0;
         <input type="radio" name="sMeatName" value="Pork">
         <br> <button type="submit">bestel</button><br>
     </form>
-    <!--end of the indgridient part-->
 </div>
 <p style="text-align: center;"><img src="stylesheet/images/static-assets-upload1966055015942721094.gif" class="cars"></p>
 </body>
