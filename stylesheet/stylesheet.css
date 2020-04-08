@@ -1,4 +1,12 @@
-
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffdf7c;
+    color: black;
+    text-align: center;
+}
 /*Luc CSS styling*/
 /*Navbar styling (can change before the end of the project)*/
   
@@ -254,12 +262,3 @@ p2 {
 }
 
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #ffdf7c;
-    color: black;
-    text-align: center;
-}
