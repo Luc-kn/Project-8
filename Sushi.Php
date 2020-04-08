@@ -9,8 +9,8 @@
 
 <body>
 <div class="logo">
-    <img src="images/logo.PNG">
-    <img class="openGif" src="images/open.gif" width="8%">
+    <img src="stylesheet/images/logo.PNG">
+    <img class="openGif" src="stylesheet/images/open.gif" width="8%">
     <p4></p4>
 </div>
 <ul style="">

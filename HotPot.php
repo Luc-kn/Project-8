@@ -51,8 +51,8 @@ $iTotaal = 0;
 <body>
 <!--start of the nav bar-->
 <div class="logo">
-    <img src="images/logo.PNG">        <!--the logo-->
-    <img class="openGif" src="images/open.gif" width="8%">
+    <img src="stylesheet/images/logo.PNG">        <!--the logo-->
+    <img class="openGif" src="stylesheet/images/open.gif" width="8%">
     <p4></p4>
 </div>
 <ul style=>
@@ -65,7 +65,7 @@ $iTotaal = 0;
 <!--end of the navbar-->
 <div>
     <!--steps for your own hot pot-->
-<h2>Producten</h2> <div><img src="./stylesheet/images/DOrFwp.gif" class="zawardo"></p></div>
+<h2>Producten</h2> <div><img src="stylesheet/images/DOrFwp.gif" class="zawardo"></p></div>
 <h4>Hot Pot Soup</h4><pre><p style="text-align: right; position: relative;"<br>
 <h3>Step 1</h3>
 <p>Select your soup base</p>
@@ -76,8 +76,8 @@ $iTotaal = 0;
 <br></div>
 <!--images i used-->
 <div>
-<img src="./stylesheet/images/FatalIdioticGypsymoth-max-1mb.gif" class=""muda width="33%">
-<img src="./stylesheet/images/giphy.gif" class="lick" align="right">
+<img src="stylesheet/images/FatalIdioticGypsymoth-max-1mb.gif" class="" muda width="33%">
+<img src="stylesheet/images/giphy.gif" class="lick" align="right">
 </div>
 <div align="center">
 <!--the ingridient part of the site-->
@@ -121,6 +121,6 @@ $iTotaal = 0;
     </form>
     <!--end of the indgridient part-->
 </div>
-<p style="text-align: center;"><img src="./stylesheet/images/static-assets-upload1966055015942721094.gif" class="cars"></p>
+<p style="text-align: center;"><img src="stylesheet/images/static-assets-upload1966055015942721094.gif" class="cars"></p>
 </body>
 </html>
