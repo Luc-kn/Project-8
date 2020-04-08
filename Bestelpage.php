@@ -166,3 +166,7 @@ if (!empty($aWinkelwagen[0])) {
 
 
 ?>
+<!DOCTYPE html>
+<html lang="en"><br>
+<button type="submit">bestellen</button>
+</html>
