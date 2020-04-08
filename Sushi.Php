@@ -69,7 +69,7 @@ $iTotaal = 0;
         <li><a href="HotPot.php">Hot Pot</a></li>
         <li><a href="Sushi.php">Sushi</a></li>
         <li><a href="InstantNoodles.php">Noodles</a></li>
-        <li><a href="bestelpage.php>Bestellen">Bestellen</a></li>
+        <li><a href="bestelpage.php">Bestellen</a></li>
     </ul>
     <form method="POST">
         <div class="container">
