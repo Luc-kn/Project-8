@@ -128,7 +128,8 @@ function LoadArray() {
     <meta charset="UTF-8">
     <title>Hot Pot</title>
     <link rel="stylesheet" href="./stylesheet/stylesheet.css">
-
+    <link rel="shortcut icon" href="stylesheet/images/favicon.ico"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 <div class="logo">
