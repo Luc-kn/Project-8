@@ -253,7 +253,7 @@ li a:hover:not(.active) {
     overflow: hidden;
     width: 600px;
     height: 400px;
-    background: url(images/sushi.jpg);
+    background: url(./images/sushi.jpg);
     margin: 100px auto;
     animation: slide 30s infinite;
 }
