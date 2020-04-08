@@ -1,3 +1,46 @@
+<?php
+//function to save the array the 'winkelwagen.json' file
+function SaveArray($p_aSaveArray) {
+    //change string into json compatible data
+    $aJSONArray = json_encode($p_aSaveArray);
+    //open the file in writing mode
+    $file = fopen('winkelwagen.json','w');
+    //change the files content of the opened file to what it already was + the new array
+    file_put_contents('winkelwagen.json', $aJSONArray);
+    //close the file
+    fclose($file);
+}
+
+//function to load the 'winkelwagen.json' file
+function LoadArray() {
+    //open the file in reading mode
+    $file = fopen('winkelwagen.json','r');
+    //get the content of the opened file
+    $aJSONArray = file_get_contents('winkelwagen.json');
+    //change the read string to php compatible data
+    $aReadArray = json_decode($aJSONArray,TRUE);
+    //close the file
+    fclose($file);
+    //save the loaded data to be used in the page
+    return($aReadArray);
+}
+
+if(!empty($_POST)){
+    $sSoupBase      = $_POST['sSoupBaseName'];
+    $sVegtable      = $_POST['sVegtableName'];
+    $sMeat          = $_POST['sMeatName'];
+    $fPrijs         = $_POST['fPrijsSoupBase'];
+    $fPrijs         = $fPrijs + $_POST['fPrijsVegtable'];
+    $fPrijs         = $fPrijs + $_POST['fPrijsMeat'];
+    $aWinkelwagen   = LoadArray();
+    $iRecordCounter = count($aWinkelwagen);
+    $aWinkelwagen[$iRecordCounter] = array($sSoupBase,$sVegtable,$sMeat,$fPrijs);
+    //save the array to the file
+    SaveArray($aWinkelwagen);
+    header('location: Bestelpage.php');
+}
+$iTotaal = 0;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
