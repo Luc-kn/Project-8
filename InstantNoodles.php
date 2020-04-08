@@ -171,7 +171,6 @@ $iTotaal = 0;
           <option value="Curry">Curry</option>
       </select> <button type="submit"><P>Bestellen</p></button>
   </form>
->>>>>>> 985bc04961d5ef8ecb0777ba8f6406ea9877ed6d
 </div>
 <br>
 
