@@ -81,10 +81,10 @@ $iTotaal = 0;
             <h3>
                 <span>California Roll<img class="img" src="./stylesheet/images/Cali.jpg" alt="CaliRoll"></span>
                 <span>10Rolls<input type="hidden" name="fPrijsCaliroll" value="25"> $25 <br><input type="radio"
-                        name="sCaliName" value="Caliroll25"></span>
+                        name="sCaliName" value="Caliroll"></span>
                 <span>------</span>
                 <span>15Rolls<input type="hidden" name="fPrijsCaliroll" value="30"> $30 <br> <input
-                        type="radio" name="sCaliName" value="Caliroll30"></span>
+                        type="radio" name="sCaliName" value="Caliroll"></span>
                 <span>----</span>
                 <button type="submit">Order</button>
             </h3>
@@ -96,10 +96,10 @@ $iTotaal = 0;
             <h3>
                 <span>Tempura Roll <img class="img" src="./stylesheet/images/Roll1.jpg" alt="TempRoll"></span>
                 <span>8Rolls <input type="hidden" name="fPrijsTemproll" value="15"> $15 <br><input type="radio"
-                        name="sTempName" value="Temproll15"></span>
+                        name="sTempName" value="Temproll"></span>
                 <span>------</span>
                 <span>16Rolls <input type="hidden" name="fPrijsTemproll" value="9"> $9 <br><input type="radio"
-                        name="sTempName" value="Temproll9"></span>
+                        name="sTempName" value="Temproll"></span>
                 <span>----</span>
                 <button type="submit">Order</button>
             </h3>
@@ -136,10 +136,10 @@ $iTotaal = 0;
             <h3>
                 <span>Rainbow Roll <img class="img" src="./stylesheet/images/RainbowR.jpg"></span>
                 <span>15Rolls <input type="hidden" name="fPrijsRainbowroll" value="23"> $23 <br><input type="radio"
-                        name="sRainbowName" value="Rainbowroll23"></span>
+                        name="sRainbowName" value="Rainbowroll"></span>
                 <span>------</span>
                 <span>24Rolls <input type="hidden" name="fPrijsRainbowroll" value="32"> $32 <br><input type="radio"
-                        name="sRainbowName" value="Rainbowroll32"></span>
+                        name="sRainbowName" value="Rainbowroll"></span>
                 <span>----</span>
                 <button type="submit">Order</button>
             </h3>
