@@ -60,8 +60,8 @@ $iTotaal = 0;
 
 <body>
     <div class="logo">
-        <img src="images/logo.PNG">
-        <img class="openGif" src="images/open.gif" width="8%">
+        <img src="./stylesheet/images/logo.PNG">
+        <img class="openGif" src="./stylesheet/images/open.gif" width="8%">
         <p4></p4>
     </div>
     <ul style="">
@@ -79,7 +79,7 @@ $iTotaal = 0;
             </div>
 
             <h3>
-                <span>California Roll<img class="img" src="./Images/Cali.jpg" alt="CaliRoll"></span>
+                <span>California Roll<img class="img" src="./stylesheet/images/Cali.jpg" alt="CaliRoll"></span>
                 <span>10Rolls<input type="hidden" name="fPrijsCaliroll" value="25"> $25 <br><input type="radio"
                         name="sCaliName" value="Caliroll25"></span>
                 <span>------</span>
@@ -94,7 +94,7 @@ $iTotaal = 0;
                 avocado.
                 Sometimes it will be served with a slab of ahi on top.</p>
             <h3>
-                <span>Tempura Roll <img class="img" src="./Images/Roll1.jpg" alt="TempRoll"></span>
+                <span>Tempura Roll <img class="img" src="./stylesheet/images/Roll1.jpg" alt="TempRoll"></span>
                 <span>8Rolls <input type="hidden" name="fPrijsTemproll" value="15"> $15 <br><input type="radio"
                         name="sTempName" value="Temproll15"></span>
                 <span>------</span>
@@ -134,7 +134,7 @@ $iTotaal = 0;
                 carrot
                 strips or cucumber. Recommended for a light snack</p> -->
             <h3>
-                <span>Rainbow Roll <img class="img" src="./Images/RainbowR.jpg"></span>
+                <span>Rainbow Roll <img class="img" src="./stylesheet/images/RainbowR.jpg"></span>
                 <span>15Rolls <input type="hidden" name="fPrijsRainbowroll" value="23"> $23 <br><input type="radio"
                         name="sRainbowName" value="Rainbowroll23"></span>
                 <span>------</span>
