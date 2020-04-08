@@ -14,6 +14,7 @@ function LoadArray() {
     PlaceOrder();
 }
     $aWinkelwagen = LoadArray();
+////Old work    
 ////Declaring variables
 //$fPrijs;
 //$sProduct;
@@ -118,6 +119,7 @@ function LoadArray() {
 //        $sSushi=0;
 //        break;
 //}
+////End of old work
 ?>
 
 <!DOCTYPE html>
@@ -152,7 +154,7 @@ if (!empty($aWinkelwagen[0])) {
             . "<td>" . $aContentArray[0] . "</td>"                                                 //product naam
             . "<td>" . $aContentArray[1] . "</td>"                                                 //SoupBase naam
             . "<td>" . $aContentArray[2] . "</td>"                                                 //Vegtable naam
-            . "<td align='right'> € " . number_format($aContentArray[3],2,".",""). "</td>"                                   //Product prijs
+            . "<td align='right'> € " . number_format($aContentArray[3],2,".",""). "</td>"         //Product prijs
             . "</tr>");
     }
     echo("</table>");
