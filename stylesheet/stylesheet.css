@@ -1,69 +1,167 @@
+
+/*Luc CSS styling*/
+/*Navbar styling (can change before the end of the project)*/
+  
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+  
+li a {
+    display: block;
+    color: #b45151;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/*End of navbar styling*/
+
+body{
+    background-color: #FFF7C6;
+}
+button{
+    background-color: #9E8B68;
+}
+h2{
+    background-color: #CC0701;
+}
+/*styling for images*/
+.zawardo{
+    align-content: right;
+    margin-bottom: 50px;
+}
+.muda{
+    align-content: right;
+    margin-bottom: 10px;
+}
+.lick{
+    align-self: right;
+    margin-bottom: 10px;
+}
+.cars{
+    align-content: right;
+}
+/*end of image styling*/
+/*end Luc CSS styling
+/* Jelle CSS */
+/*Navbar styling (can change before the end of the project)*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdf7c;
+}
+/* Jelle CSS */
+/*styling for the order text (centering)*/
+.NoodlesTitle {
+    text-align:     center;
+}
+
+/*Styling for the first row of images*/
+.InstantNoodlesRow1 {
+    display: flex;
+}
+
+/*Styling for all the images in row 1*/
+.InstantNoodlesColumn1 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/*Styling for the second row of images*/
+.InstantNoodlesRow2 {
+    display: flex;
+}
+
+/*Styling for all the images in row 2*/
+.InstantNoodlesColumn2 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.BestelPageTable{
+    margin-top:     20%;
+    margin-right:   auto;
+    margin-left:    auto;
+}
+
 *,
 *:after,
 *:before {
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
-    width: 50%;
-    margin: 1em auto;
-    border: 1px solid #ddd;
-    padding: 0.3em 0.6em;
+  width: 50%;
+  margin: 1em auto;
+  border: 1px solid #ddd;
+  padding: 0.3em 0.6em;
 }
 .container:after, .container:before {
-    display: table;
-    content: " ";
-    line-height: 0;
-    font-size: 0;
-    clear: both;
+  display: table;
+  content: " ";
+  line-height: 0;
+  font-size: 0;
+  clear: both;
 }
 .container p {
-    font-size: 0.9em;
-    color: #777;
-    margin-bottom: 1.5em;
-    font-style: italic;
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 1.5em;
+  font-style: italic;
 }
 
 .group-header {
-    float: right;
-    font-weight: 700;
-    width: 20%;
-    margin: 0.7em 0 1em 0;
+  float: right;
+  font-weight: 700;
+  width: 20%;
+  margin: 0.7em 0 1em 0;
 }
 .group-header span {
-    float: left;
-    width: 50%;
-    text-align: center;
-    display: block;
+  float: left;
+  width: 50%;
+  text-align: center;
+  display: block;
 }
 
 h3 {
-    position: relative;
-    font-weight: 700;
-    margin: 0.7em 0 1em 0;
+  position: relative;
+  font-weight: 700;
+  margin: 0.7em 0 1em 0;
 }
 h3:after, h3:before {
-    display: table;
-    content: " ";
-    line-height: 0;
-    font-size: 0;
-    clear: both;
+  display: table;
+  content: " ";
+  line-height: 0;
+  font-size: 0;
+  clear: both;
 }
 h3 span {
-    float: left;
-    width: 10%;
-    text-align: center;
-    display: block;
+  float: left;
+  width: 10%;
+  text-align: center;
+  display: block;
 }
 h3 span:first-child {
-    width: 40%;
-    text-align: left;
+  width: 40%;
+  text-align: left;
 }
 h3 .dots {
-    width: 40%;
-    border-bottom: 2px dotted #ccc;
-    margin-top: 0.8em;
+  width: 40%;
+  border-bottom: 2px dotted #ccc;
+  margin-top: 0.8em;
 }
 .img{
     width: auto;
@@ -165,100 +263,3 @@ footer {
     color: black;
     text-align: center;
 }
-/*Luc CSS styling*/
-/*Navbar styling (can change before the end of the project)*/
-  
-li {
-    float: left;
-    border-right:1px solid #bbb;
-}
-  
-li:last-child {
-    border-right: none;
-}
-  
-li a {
-    display: block;
-    color: #b45151;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    
-}
-  
-li a:hover:not(.active) {
-    background-color: #111;
-}
-/*End of navbar styling*/
-
-body{
-    background-color: #FFF7C6;
-}
-button{
-    background-color: #9E8B68;
-}
-h2{
-    background-color: #CC0701;
-}
-/*styling for images*/
-.zawardo{
-    align-content: right;
-    margin-bottom: 50px;
-}
-.muda{
-    align-content: right;
-    margin-bottom: 10px;
-}
-.lick{
-    align-self: right;
-    margin-bottom: 10px;
-}
-.cars{
-    align-content: right;
-}
-/*end of image styling*/
-/*end Luc CSS styling
-/* Jelle CSS */
-/*Navbar styling (can change before the end of the project)*/
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffdf7c;
-}
-/* Jelle CSS */
-/*styling for the order text (centering)*/
-.NoodlesTitle {
-    text-align:     center;
-}
-
-/*Styling for the first row of images*/
-.InstantNoodlesRow1 {
-    display: flex;
-}
-
-/*Styling for all the images in row 1*/
-.InstantNoodlesColumn1 {
-    flex: 33.33%;
-    padding: 5px;
-}
-
-/*Styling for the second row of images*/
-.InstantNoodlesRow2 {
-    display: flex;
-}
-
-/*Styling for all the images in row 2*/
-.InstantNoodlesColumn2 {
-    flex: 33.33%;
-    padding: 5px;
-}
-
-.BestelPageTable{
-    margin-top:     20%;
-    margin-right:   auto;
-    margin-left:    auto;
-}
-
