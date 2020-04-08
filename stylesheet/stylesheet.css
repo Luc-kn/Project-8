@@ -249,10 +249,6 @@ li a:hover:not(.active) {
     height: 5%;
 }
 
-body {
-    background-color: #ffff99;
-}
-
 .slider {
     overflow: hidden;
     width: 600px;
