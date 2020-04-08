@@ -68,7 +68,6 @@ $iTotaal = 0;
 </div>
 <br>
 <!--Images of the noodles-->
-<<<<<<< HEAD
 <!--Ordering the "smaak" of the noodles on the website-->
 <div align="center">
 <!--seafood smaak-->
